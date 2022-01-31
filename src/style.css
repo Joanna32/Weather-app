@@ -8,6 +8,15 @@ a {
   color: black;
   font-size: 18px;
 }
+p {
+  text-align: center;
+  font-family: cursive;
+  font-size: 14px;
+}
+.footer {
+  font-size: 14px;
+  color: rgb(19, 19, 184);
+}
 .fahrenheitMark {
   opacity: 0.8;
 }
