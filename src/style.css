@@ -1,0 +1,95 @@
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  margin-top: 30px;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+.fahrenheitMark {
+  opacity: 0.8;
+}
+#current-temp {
+  font-size: 45px;
+  font-weight: 500;
+}
+.units {
+  display: inline-block;
+  position: relative;
+  top: -24px;
+  padding-left: 5px;
+}
+
+.project {
+  background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+  border: 1px solid #acdcee;
+  border-radius: 10px;
+  max-width: 65%;
+  margin: 30px auto;
+  padding: 20px 20px;
+}
+
+#city-search {
+  margin-top: 10px;
+}
+#current-button {
+  margin-top: 10px;
+}
+
+.sun {
+  width: 250px;
+}
+
+#humidity-icon,
+#wind-icon {
+  width: 23px;
+  font-size: 15px;
+}
+
+#humidity,
+#wind,
+#mark {
+  font-size: 17px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+}
+
+.description {
+  font-size: 28px;
+  font-family: "Courgette", cursive;
+  margin-bottom: 8px;
+  margin-top: 30px;
+}
+.date {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  opacity: 0.7;
+  margin-top: 60px;
+}
+.time {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  opacity: 0.7;
+}
+
+.days {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 35px;
+}
+.temperature {
+  font-size: 14px;
+  opacity: 0.9;
+}
+.forecast {
+  margin-top: 45px;
+}
+
+.forecast img {
+  width: 50px;
+}
