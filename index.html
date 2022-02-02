@@ -28,20 +28,16 @@
     <title>weather-app</title>
   </head>
   <body>
-    <div class="project">
-      <div class="container">
-        <div class="row">
-          <div class="col-5">
-            <form id="city-search">
-              <input type="text" id="city" placeholder="Enter a city" />
-              <button type="submit" id="search-button">Search</button>
-            </form>
-          </div>
-          <div class="col">
-            <form id="current-position">
-              <button type="submit" id="current-button">Current</button>
-            </form>
-          </div>
+    <div class="container">
+      <div class="project">
+        <div class="clearfix">
+          <form id="city-search" class="float-left">
+            <input type="text" id="city" placeholder="Enter a city" />
+            <button type="submit" id="search-button">Search</button>
+          </form>
+          <form id="current-position" class="float-left">
+            <button type="submit" id="current-button">Current</button>
+          </form>
         </div>
 
         <form class="currentWeather">

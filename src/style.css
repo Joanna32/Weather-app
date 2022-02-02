@@ -40,8 +40,13 @@ p {
   padding: 20px 20px;
 }
 
-#city-search {
+#city-search,
+#current-position {
   margin-top: 10px;
+}
+
+.float-left {
+  float: left;
 }
 #search-button {
   background: white;
@@ -52,12 +57,12 @@ p {
 }
 
 #current-button {
-  margin-top: 10px;
   background: rgb(231, 228, 228);
   border: 1px solid rgb(143, 143, 143);
   border-radius: 4px;
   font-size: 15px;
-  padding: 6px 12px;
+  padding: 5px 10px;
+  margin-left: 5px;
 }
 
 .sun {
