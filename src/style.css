@@ -35,7 +35,7 @@ p {
   background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
   border: 1px solid #acdcee;
   border-radius: 10px;
-  max-width: 65%;
+  max-width: 60%;
   margin: 30px auto;
   padding: 20px 20px;
 }
@@ -43,12 +43,25 @@ p {
 #city-search {
   margin-top: 10px;
 }
+#search-button {
+  background: white;
+  border: 1px solid rgb(143, 143, 143);
+  border-radius: 4px;
+  font-size: 15px;
+  padding: 5px 10px;
+}
+
 #current-button {
   margin-top: 10px;
+  background: rgb(231, 228, 228);
+  border: 1px solid rgb(143, 143, 143);
+  border-radius: 4px;
+  font-size: 15px;
+  padding: 6px 12px;
 }
 
 .sun {
-  width: 250px;
+  width: 180px;
 }
 
 #humidity-icon,
